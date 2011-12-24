@@ -2,7 +2,7 @@
 
 # How to use
 
-`gem install dadablog`
+`gem install dadablog`   [rubygems link](https://rubygems.org/gems/dadablog)
 
 `dadablog create /path/to/your/blog/dir blog_title disqus_shortname`
 
@@ -18,3 +18,8 @@
 
 **And you should use github [post-receive-hooks](http://help.github.com/post-receive-hooks/) to post http://yoururl/update**
 
+#TODO list:
+
+* feed
+* footer design
+* page function
