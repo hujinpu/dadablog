@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topborder {
+    height: 14px;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+#topborder div {
+    background: none repeat scroll 0 0 #111111;
+    box-shadow: 0 0 2px #111111;
+    height: 4px;
+}
+
+#header {
+    position: relative;
+    top: -10px;
+    width: 100%;
+}
+
+#menu {
+    background: none repeat scroll 0 0 #111111;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 2px #111111;
+    float: left;
+    padding: 2px 6px 6px;
+}
+
+#menu a {
+    color: #555555;
+    font-size: 16px;
+}
+
+#menu a:hover {
+    color: #AA0000;
+}
+
+#menu a.home {
+    opacity: 0.6;
+}
+
+#menu a.home img {
+    height: 18px;
+    width: 20px;
+}
+
+#menu a.home:hover {
+    border: 0 none;
+    opacity: 1;
+}
+
+article {
+    min-width: 300px;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 0 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #555;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header time {
+    font-size: 80%;
+    color: #555;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5em;
+}

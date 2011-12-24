@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>#blog_title#</title>
+  <%= get_css %>
+</head>
+<body>
+<nav>
+  <div id="topborder">
+    <div></div>
+  </div>
+  <div id="header">
+    <div id="menu">
+      <a href="/" class="home">
+        <img src="/img/house.png">
+      </a>
+    </div>
+  </div>
+</nav>
+<%= yield %>
+<%= get_js %>
+</body>
+</html>

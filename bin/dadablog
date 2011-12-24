@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'dadablog/cli'
+Dadablog::CLI.start
