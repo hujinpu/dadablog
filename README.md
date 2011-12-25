@@ -8,7 +8,9 @@
 
 `cd /path/to/your/blog/dir`
 
-`sh server.sh start`
+`bundle install`
+
+`sh server.sh start` 
 
 `git remote add origin git@github.com:youarname/yourgit.git`
 

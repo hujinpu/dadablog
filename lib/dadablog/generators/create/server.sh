@@ -1,8 +1,9 @@
 #!/bin/bash
 
-ret=`git init .`
-regexp=".*empty.*"
-if [[ $ret =~ $regexp ]]; then
+if [ ! -d ".git" ]; then
+    echo "git init ."
+    x=`git init .`
+
     echo "git add ."
     x=`git add .`
 
@@ -10,7 +11,11 @@ if [[ $ret =~ $regexp ]]; then
     x=`git commit -m 'init'`
 fi
 
-DESC="web server"
+if [ ! -d "logs" ]; then
+    mkdir "logs"
+fi
+
+DESC="web server, and welcome using dadablog!"
 
 case "$1" in
     start)
